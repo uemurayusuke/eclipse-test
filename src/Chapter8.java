@@ -64,3 +64,6 @@ public class Chapter8 {
 
 //Rubyでいうelsifの文が else if
 
+//テスト
+
+
