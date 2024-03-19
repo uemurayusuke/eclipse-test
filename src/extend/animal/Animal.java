@@ -1,7 +1,10 @@
 
+
 package extend.animal;
 
+//抽象クラスを定義するのが、スーパークラス
 //抽象クラス
+//今回はAnimalがスーパークラス
 public abstract class Animal {
 	protected String name;
 
