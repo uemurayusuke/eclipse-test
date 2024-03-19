@@ -9,3 +9,5 @@ public class ClassMethod01 {
 		System.out.println("名前は" + sato.name + "で、年齢は" + sato.age + "です。");
 	}
 }
+
+
