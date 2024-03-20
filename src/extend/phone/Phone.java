@@ -9,8 +9,11 @@ public interface Phone {
 
 //	public abstractが自動で追加される(抽象メソッド)
     void call(String number);
+    
+//    defaultメソッドの宣言
+    default void powerOff() {
+    	System.out.println("電源を切ります。");
+    }
+    
 }
 
-//インターフェースとは、定数と抽象メソッドだけを持つクラスのようなもの。
-//インターフェースはクラスで実装して利用する
-//実装したクラスはインターフェース内の抽象メソッドをすべて実装する必要がある。
