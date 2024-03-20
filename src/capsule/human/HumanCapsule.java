@@ -12,17 +12,14 @@ public class HumanCapsule {
 		this.age = age;
 	}
 
-//	getNameと定義する事で値が取得できる。
-//	privateを使用したら、getNameにしないといけない。
+	
+//	これがgetterメソッドという
 	public String getName() {
-//		System.out.を使用しない場合は、returnを使用するというニュアンスかな？
 		return name;
 	}
 
-	
 	public int getAge() {
 		return age;
 	}
+	
 }
-
-

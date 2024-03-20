@@ -1,24 +1,31 @@
 
+
+
 package extend.human;
+
+public class Human {
 	
-	public class Human {
-		private String name;
-		protected int age;
+	private String name;
+	protected int age;
 
-		public Human(String name, int age) {
-			this.name = name;
-			this.age = age;
-		}
+	public Human(String name, int age) {
+//		中身はこっち
+		this.name = name;
+		this.age = age;
+	}
 
-		public String getName() {
-			return this.name;
-		}
+	public String getName() {
+		return this.name;
+	}
 
-		public int getAge() {
-			return this.age;
-		}
+	public int getAge() {
+		return this.age;
+	}
+	
 
 }
 
-	
-//	privateを理解しないといけない。
+
+//Objectクラスとは、クラス階層のルートのクラス
+//Javaのすべてのクラスは、スーパークラスがObjectクラス
+//クラスの宣言でexpendsを省略した場合は、extends Objectを宣言したことになる。

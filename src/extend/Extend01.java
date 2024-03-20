@@ -1,5 +1,4 @@
 
-
 package extend;
 
 import extend.human.Employee;
@@ -8,7 +7,9 @@ import extend.human.Student;
 
 
 public class Extend01 {
+	
 	public static void main(String[] args) {
+		
 		Human sugimoto = new Human("杉本", 16);
 		System.out.println("Humanクラスのメソッド：名前は、" + sugimoto.getName());
 
@@ -22,7 +23,6 @@ public class Extend01 {
 		Employee tanaka = (Employee) human;
 		System.out.println("Employeeクラスのメソッド：プロフィールを紹介します。" + tanaka.getEmployeeProfile());
 
-//		         これは、下記で記述したメソッド
 		Extend01.printName(sugimoto);
 		Extend01.printName(sato);
 		Extend01.printName(tanaka);
@@ -31,4 +31,18 @@ public class Extend01 {
 	public static void printName(Human human) {
 		System.out.println("Humanクラスのメソッド：名前は、" + human.getName());
 	}
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
